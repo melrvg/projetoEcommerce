@@ -1,0 +1,64 @@
+<!DOCTYPE hmtl>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>projetoEcommerce</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+
+        <header>
+            <h1>bem-vindo!</h1>
+        </header>
+
+        <main>
+            <nav>
+                <ul class="itens">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SOBRE NÓS</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+                <ul class="cesto">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#" id="cestoCompras">CESTO[]</a></li>
+                </ul>
+            </nav>
+    
+            <section class="produtos">
+                <h2>Destaques</h2>
+                <div class="gradeProdutos">
+                    <!--aqui serao inseridos os produtos pelo JS-->
+                </div>
+            </section>
+
+            <section class="cart">
+                <h2>carrinho de compras</h2>
+                <table>
+                    <thread>
+                        <tr>
+                            <th>produto</th>
+                            <th>quantidade</th>
+                            <th>preço</th>
+                            <th>subtotal</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <!--aqui ficarao os produtos do carrinho-->
+                    </tbody>
+                </table>
+                <p>
+                    total: <span id="total">R$0,00</span>
+                </p>
+                <button id="checkout">pagar</button>
+            </section> 
+        </main>
+
+        <footer>
+            &copy; 2025 Mel (em desenvolvimento)
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
